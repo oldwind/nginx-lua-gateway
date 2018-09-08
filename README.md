@@ -1,9 +1,5 @@
-# ngx-lua-stableservice
-stable service  
+### 基于LUA的服务稳定性保证
 
-What is ngx-lua-stable-service
-
-base on openresty and use lua language to design stable system
 
 
 

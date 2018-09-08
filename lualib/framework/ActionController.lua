@@ -95,7 +95,7 @@ local function getModuleAction(actionClassName)
 		or (not string.find(actionClassName, "^[%a_][%w_%-.]*$"))) then
 		errmsg = 'action class name invalid: actionClassName['..actionClassName..']'
 		return nil, errmsg
-	end
+	end 
 	return require(actionClassName)
 end
 
