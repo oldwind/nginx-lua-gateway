@@ -1,16 +1,3 @@
-
---[[******
- * Copyright by yebin
- *
- * ActionController.lua
- *
- * @package framework
- * @authors yebin
- * @date    2017-07-22 16:43:38
- * @version 1.0
- */
-]]
-
 local string = require("string")
 local pairs = pairs
 local print = print
@@ -21,11 +8,6 @@ local error = error
 local utils = require("lualib.utils.Utils")
 local preg_match = ngx.re.match
 
---[[
-/**
- * module name
- */
-]]
 module(...)
 
 local ruleConfig    = {}
